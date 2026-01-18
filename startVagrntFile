@@ -1,0 +1,6 @@
+# STOP KVM
+sudo modprobe -r kvm_amd
+sudo modprobe -r kvm
+
+# START Vagrant File
+sudo vagrant up
