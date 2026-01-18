@@ -25,7 +25,7 @@
       register: db_existente
     - name: 'Download e extração DB'
       unarchive:
-        src: http://forceclass-00.linuxforce.com.br/express/backup.zip
+        src: https://github.com/lucasbarros097/ProjeDevOps_LinuxForceSecurity/raw/refs/heads/main/backup.zip
         dest: /tmp
         remote_src: yes
       when: not db_existente.stat.exists    

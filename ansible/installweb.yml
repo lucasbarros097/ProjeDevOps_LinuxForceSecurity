@@ -36,7 +36,7 @@
         mode: '0775'
     - name: 'Download e Extração do arquivo da aplicação'
       unarchive:
-        src: http://forceclass-00.linuxforce.com.br/express/express.zip
+        src: https://github.com/lucasbarros097/ProjeDevOps_LinuxForceSecurity/raw/refs/heads/main/express.zip
         dest: /srv/www
         remote_src: yes
     - name: 'Substitui IP de Conexão com o Banco'
